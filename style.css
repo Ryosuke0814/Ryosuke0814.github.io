@@ -1,0 +1,128 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+header{
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+header h1{
+  padding: 20px 0px;
+}
+nav{
+  padding: 20px 0px;
+}
+nav ul{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 25px;
+}
+nav ul li a{
+  color: white;
+  text-decoration: none;
+}
+.hero figure img{
+  width:100%;
+}
+.about{
+  text-align: center;
+}
+.about h2{
+  padding: 15px 0px;
+  font-size: 40px;
+}
+.about p{
+  padding: 20px;
+}
+.about h3{
+  padding: 20px;
+  font-size: 25px;
+}
+.menu{
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+.menu h2{
+  padding: 25px 0px;
+  font-size: 40px;
+}
+.menu table {
+  margin: 0 auto;
+}
+.menu table td{
+  padding: 10px;
+  font-size: 30px;
+}
+.access{
+  text-align: center;
+}
+.access h2{
+  padding: 20px;
+  font-size: 35px;
+}
+.access p{
+  padding-bottom: 15px;
+  font-size: 20px;
+}
+.contact{
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding:40px 20px;
+}
+.contact h2{
+  margin-bottom: 40px;
+  letter-spacing: 2px;
+}
+.contact form label{
+  display: block;
+}
+.contact form input{
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+}
+.contact form textarea{
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+}
+.contact form input[type="submit"]{
+  width: 300px;
+  background-color: #eee;
+}
+aside{
+  text-align: center;
+  background-color: #eee;
+  padding: 40px 20px;
+}
+aside h2{
+  margin-bottom: 40px;
+  letter-spacing: 2px;
+}
+aside figure{
+  padding: 20px;
+}
+aside figure img{
+  width: 200px;
+}
+aside .btn{
+  padding: 20px 100px;
+  background-color: black;
+  display: inline-block;
+  border-radius: 50px;
+  color: white;
+  text-decoration: none;
+}
+aside .btn:hover{
+  opacity: 0.8;
+}
+footer{
+  padding: 10px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
